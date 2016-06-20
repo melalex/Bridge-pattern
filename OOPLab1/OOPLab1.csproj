@@ -40,7 +40,8 @@
     <Compile Include="ConcreteProduct.cs" />
     <Compile Include="CountryDecorator.cs" />
     <Compile Include="AbstractDecorator.cs" />
-    <Compile Include="Decorators.cs" />
+    <Compile Include="CountryInformation.cs" />
+    <Compile Include="LocationInformation.cs" />
     <Compile Include="Goods.cs" />
     <Compile Include="Main.cs" />
   </ItemGroup>

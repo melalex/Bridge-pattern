@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DataBase
 {
-    class Decorators
+    class LocationInformation
     {
+
     }
 }

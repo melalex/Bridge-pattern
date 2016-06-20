@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
+namespace Bridge
 {
     abstract class Product
     {
@@ -16,10 +16,16 @@ namespace Decorator
 
     abstract class Decorator : Product
     {
-        protected Product product; 
+        protected Product DecoratedProduct;
+
+        public Decorator(Product product)
+        {
+            DecoratedProduct = product;
+        } 
+
         public override string ToString()
         {
-            return product.ToString();
+            return DecoratedProduct.ToString();
         }
     }
 }
