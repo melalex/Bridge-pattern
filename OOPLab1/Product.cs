@@ -8,7 +8,7 @@ namespace Bridge
 {
     class Product
     {      
-        Localization localization { get; set; }
+        public Localization localization { get; set; }
 
         public decimal Price { get; }
         public string NameUA { get; }
@@ -25,7 +25,7 @@ namespace Bridge
 
         public override string ToString()
         {
-            return localization.LocalDateTime() + "\n" + localization.LocalName(this) + "\t" + localization.LocalPrice(price);
+            return localization.LocalDateTime() + "\n" + localization.LocalName(this) + "\t" + localization.LocalPrice(Price) + "\n";
         }
     }
 }

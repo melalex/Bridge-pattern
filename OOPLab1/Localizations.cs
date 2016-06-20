@@ -15,7 +15,7 @@ namespace Bridge
         }
         override public string LocalPrice(decimal price)
         {
-            return price * 24.8948194M + "₴";
+            return price * 24.89M + " UAH";
         }
         override public string LocalDateTime()
         {
@@ -31,7 +31,7 @@ namespace Bridge
         }
         override public string LocalPrice(decimal price)
         {
-            return price * 64.0532923M + "₽";
+            return price * 64.05M + " RUB";
         }
         override public string LocalDateTime()
         {
@@ -47,7 +47,7 @@ namespace Bridge
         }
         override public string LocalPrice(decimal price)
         {
-            return price + "$";
+            return price + " DOL";
         }
         override public string LocalDateTime()
         {
