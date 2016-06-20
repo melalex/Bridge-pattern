@@ -1,0 +1,2 @@
+c:\users\александр сергеевич\documents\visual studio 2015\Projects\OOPLab1\OOPLab1\bin\Debug\OOPLab1.exe.config
+C:\Users\Александр Сергеевич\Desktop\Проекты\Design pattern\OOPLab1\OOPLab1\bin\Debug\OOPLab1.exe.config
