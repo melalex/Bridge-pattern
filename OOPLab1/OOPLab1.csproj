@@ -37,12 +37,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cart.cs" />
-    <Compile Include="ConcreteProduct.cs" />
-    <Compile Include="CountryDecorator.cs" />
-    <Compile Include="AbstractDecorator.cs" />
-    <Compile Include="CountryInformation.cs" />
-    <Compile Include="LocationInformation.cs" />
-    <Compile Include="Goods.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="AbstractLocalization.cs" />
+    <Compile Include="Localizations.cs" />
     <Compile Include="Main.cs" />
   </ItemGroup>
   <ItemGroup>
